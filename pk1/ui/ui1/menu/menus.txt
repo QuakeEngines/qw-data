@@ -1,0 +1,32 @@
+{
+	loadMenu {"ui/ui1/main.menu"}
+ 	loadMenu {"ui/ui1/joinserver.menu"}
+ 	loadMenu {"ui/ui1/player.menu"}
+ 	loadMenu {"ui/ui1/setup.menu"}
+ 	loadMenu {"ui/ui1/fight.menu"}
+ 	loadMenu {"ui/ui1/skirmish.menu"}
+ 	loadMenu {"ui/ui1/createserver.menu"}
+	loadMenu {"ui/ui1/controls.menu"}
+	loadMenu {"ui/ui1/system.menu"}
+	loadMenu {"ui/ui1/options.menu"}
+	loadMenu {"ui/ui1/help.menu"}
+	loadMenu {"ui/ui1/ordershelp.menu"}
+ 	loadMenu {"ui/ui1/mod.menu"}
+	loadMenu {"ui/ui1/demo.menu"}
+	loadMenu {"ui/ui1/credit.menu"}
+	loadMenu {"ui/ui1/demo_quit.menu"}
+	loadMenu {"ui/ui1/connect.menu"}
+	loadMenu {"ui/ui1/powerup.menu"} 
+	loadMenu {"ui/ui1/password.menu"}
+	loadMenu {"ui/ui1/quit.menu"}
+	loadMenu {"ui/ui1/vid_restart.menu"}
+	loadMenu {"ui/ui1/default.menu"}
+	loadMenu {"ui/ui1/addfilter.menu"}
+	loadMenu {"ui/ui1/error.menu"}
+	loadMenu {"ui/ui1/serverinfo.menu"}
+	loadMenu {"ui/ui1/findplayer.menu"}
+	loadMenu {"ui/ui1/endofgame.menu"}
+	loadMenu {"ui/ui1/quitcredit.menu"}
+	loadMenu {"ui/ui1/resetscore.menu"}
+	loadMenu {"ui/ui1/createfavorite.menu"}
+}
