@@ -1,0 +1,967 @@
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 5248 4096 128 ) ( 4800 4096 128 ) ( 4800 4096 0 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( -4096 -7168 0 ) ( -4096 -7232 0 ) ( -4096 -7168 -128 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4096 -6976 0 ) ( 4096 -6912 0 ) ( 4096 -6976 -128 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4928 -4096 0 ) ( 5376 -4096 0 ) ( 5376 -4096 -128 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4992 -7168 0 ) ( 4992 -7104 0 ) ( 5440 -7168 0 ) radiant/notex 0 0 0 0.500000 0.500000 0 0 0
+( 5504 -7168 -64 ) ( 4992 -7168 -64 ) ( 4992 -7232 -64 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+}
+// brush 1
+{
+( 5504 -7168 4096 ) ( 4992 -7168 4096 ) ( 4992 -7232 4096 ) radiant/notex 0 0 0 0.500000 0.500000 0 0 0
+( 4992 -7168 4160 ) ( 4992 -7104 4160 ) ( 5440 -7168 4160 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4928 -4096 4160 ) ( 5376 -4096 4160 ) ( 5376 -4096 4032 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4096 -6976 4160 ) ( 4096 -6912 4160 ) ( 4096 -6976 4032 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( -4096 -7168 4160 ) ( -4096 -7232 4160 ) ( -4096 -7168 4032 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 5184 4096 4288 ) ( 4736 4096 4288 ) ( 4736 4096 4160 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+}
+// brush 2
+{
+( -2688 -4032 2688 ) ( -3136 -4032 2688 ) ( -3136 -4032 2560 ) radiant/notex 0 0 0 0.500000 0.500000 0 0 0
+( 8896 -4096 2560 ) ( 9344 -4096 2560 ) ( 9344 -4096 2432 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 8896 -7104 4096 ) ( 8896 -7040 4096 ) ( 9344 -7104 4096 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 9344 -7104 0 ) ( 8832 -7104 0 ) ( 8832 -7168 0 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4032 3968 0 ) ( 4032 3584 0 ) ( 4032 3968 4096 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( -4032 3584 0 ) ( -4032 4096 0 ) ( -4032 3584 4096 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+}
+// brush 3
+{
+( -2688 4096 2688 ) ( -3136 4096 2688 ) ( -3136 4096 2560 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( -3392 4032 2560 ) ( -2944 4032 2560 ) ( -2944 4032 2432 ) radiant/notex 0 0 0 0.500000 0.500000 0 0 0
+( -3392 1024 4096 ) ( -3392 1088 4096 ) ( -2944 1024 4096 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( -2944 1024 0 ) ( -3456 1024 0 ) ( -3456 960 0 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4032 3840 0 ) ( 4032 3456 0 ) ( 4032 3840 4096 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( -4032 3456 0 ) ( -4032 3968 0 ) ( -4032 3456 4096 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+}
+// brush 4
+{
+( -4096 -512 2560 ) ( -4096 -576 2560 ) ( -4096 -512 2432 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( -2560 4096 2688 ) ( -3008 4096 2688 ) ( -3008 4096 2560 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( -4032 5120 2816 ) ( -4032 5184 2816 ) ( -4032 5120 2688 ) radiant/notex 0 0 0 0.500000 0.500000 0 0 0
+( -3264 5120 4096 ) ( -3264 5184 4096 ) ( -2816 5120 4096 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( -2816 5120 0 ) ( -3328 5120 0 ) ( -3328 5056 0 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4160 -4096 0 ) ( 3712 -4096 0 ) ( 4160 -4096 4096 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+}
+// brush 5
+{
+( 4032 -11200 2560 ) ( 4032 -11264 2560 ) ( 4032 -11200 2432 ) radiant/notex 0 0 0 0.500000 0.500000 0 0 0
+( 5632 4096 2688 ) ( 5184 4096 2688 ) ( 5184 4096 2560 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4096 1472 2816 ) ( 4096 1536 2816 ) ( 4096 1472 2688 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4864 -7168 4096 ) ( 4864 -7104 4096 ) ( 5312 -7168 4096 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 5312 -7168 0 ) ( 4800 -7168 0 ) ( 4800 -7232 0 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+( 4160 -4096 0 ) ( 3712 -4096 0 ) ( 4160 -4096 4096 ) common/caulk 0 0 0 0.500000 0.500000 0 4 0
+}
+}
+// entity 1
+{
+"angle" "270"
+"target" "t2"
+"origin" "256 4000 24"
+"classname" "info_player_deathmatch"
+}
+// entity 2
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "768 4000 24"
+"target" "t2"
+}
+// entity 3
+{
+"angle" "270"
+"target" "t2"
+"origin" "1280 4000 24"
+"classname" "info_player_deathmatch"
+}
+// entity 4
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "1792 4000 24"
+"target" "t2"
+}
+// entity 5
+{
+"angle" "270"
+"target" "t2"
+"origin" "2304 4000 24"
+"classname" "info_player_deathmatch"
+}
+// entity 6
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "2816 4000 24"
+"target" "t2"
+}
+// entity 7
+{
+"angle" "270"
+"target" "t2"
+"origin" "3328 4000 24"
+"classname" "info_player_deathmatch"
+}
+// entity 8
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "3840 4000 24"
+"target" "t2"
+}
+// entity 9
+{
+"classname" "weapon_gauntlet"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 10
+{
+"classname" "weapon_handgun"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 11
+{
+"classname" "weapon_plasmagun"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 12
+{
+"classname" "weapon_grenadelauncher"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 13
+{
+"classname" "weapon_rocketlauncher"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 14
+{
+"classname" "weapon_beamgun"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 15
+{
+"classname" "weapon_bfg"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 16
+{
+"classname" "weapon_machinegun"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 17
+{
+"classname" "weapon_napalmlauncher"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 18
+{
+"classname" "weapon_proxylauncher"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 19
+{
+"classname" "weapon_phosphorgun"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 20
+{
+"classname" "weapon_shotgun"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 21
+{
+"classname" "weapon_railgun"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 22
+{
+"classname" "weapon_chaingun"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 23
+{
+"classname" "weapon_heavy_machinegun"
+"origin" "0 0 76"
+"count" "999"
+"targetname" "t1"
+}
+// entity 24
+{
+"classname" "target_give"
+"origin" "0 0 28"
+"target" "t1"
+"targetname" "t2"
+}
+// entity 25
+{
+"classname" "weapon_bfg"
+"origin" "416 480 16"
+"count" "999"
+}
+// entity 26
+{
+"classname" "weapon_grenadelauncher"
+"origin" "224 480 16"
+"count" "999"
+}
+// entity 27
+{
+"classname" "weapon_beamgun"
+"origin" "352 480 16"
+"count" "999"
+}
+// entity 28
+{
+"classname" "weapon_plasmagun"
+"origin" "160 480 16"
+"count" "999"
+}
+// entity 29
+{
+"classname" "weapon_rocketlauncher"
+"origin" "288 480 16"
+"count" "999"
+}
+// entity 30
+{
+"classname" "weapon_railgun"
+"origin" "480 160 16"
+"count" "999"
+}
+// entity 31
+{
+"classname" "weapon_shotgun"
+"origin" "480 224 16"
+"count" "999"
+}
+// entity 32
+{
+"classname" "weapon_chaingun"
+"origin" "480 96 16"
+"count" "999"
+}
+// entity 33
+{
+"classname" "weapon_proxylauncher"
+"origin" "480 352 16"
+"count" "999"
+}
+// entity 34
+{
+"classname" "weapon_napalmlauncher"
+"origin" "480 408 16"
+"count" "999"
+}
+// entity 35
+{
+"classname" "weapon_machinegun"
+"origin" "480 480 16"
+"count" "999"
+}
+// entity 36
+{
+"classname" "weapon_gauntlet"
+"origin" "88 480 16"
+"count" "999"
+}
+// entity 37
+{
+"classname" "weapon_phosphorgun"
+"origin" "480 288 16"
+"count" "999"
+}
+// entity 38
+{
+"classname" "weapon_handgun"
+"origin" "32 480 16"
+"count" "999"
+}
+// entity 39
+{
+"classname" "weapon_heavy_machinegun"
+"origin" "480 32 16"
+"count" "999"
+}
+// entity 40
+{
+"count" "999"
+"origin" "-32 480 16"
+"classname" "weapon_heavy_machinegun"
+}
+// entity 41
+{
+"count" "999"
+"origin" "-96 480 16"
+"classname" "weapon_chaingun"
+}
+// entity 42
+{
+"count" "999"
+"origin" "-160 480 16"
+"classname" "weapon_railgun"
+}
+// entity 43
+{
+"count" "999"
+"origin" "-224 480 16"
+"classname" "weapon_shotgun"
+}
+// entity 44
+{
+"count" "999"
+"origin" "-288 480 16"
+"classname" "weapon_phosphorgun"
+}
+// entity 45
+{
+"count" "999"
+"origin" "-352 480 16"
+"classname" "weapon_proxylauncher"
+}
+// entity 46
+{
+"count" "999"
+"origin" "-408 480 16"
+"classname" "weapon_napalmlauncher"
+}
+// entity 47
+{
+"count" "999"
+"origin" "-480 480 16"
+"classname" "weapon_machinegun"
+}
+// entity 48
+{
+"count" "999"
+"origin" "-480 416 16"
+"classname" "weapon_bfg"
+}
+// entity 49
+{
+"count" "999"
+"origin" "-480 352 16"
+"classname" "weapon_beamgun"
+}
+// entity 50
+{
+"count" "999"
+"origin" "-480 288 16"
+"classname" "weapon_rocketlauncher"
+}
+// entity 51
+{
+"count" "999"
+"origin" "-480 224 16"
+"classname" "weapon_grenadelauncher"
+}
+// entity 52
+{
+"count" "999"
+"origin" "-480 160 16"
+"classname" "weapon_plasmagun"
+}
+// entity 53
+{
+"count" "999"
+"origin" "-480 88 16"
+"classname" "weapon_gauntlet"
+}
+// entity 54
+{
+"count" "999"
+"origin" "-480 32 16"
+"classname" "weapon_handgun"
+}
+// entity 55
+{
+"classname" "weapon_bfg"
+"origin" "480 -416 16"
+"count" "999"
+}
+// entity 56
+{
+"classname" "weapon_grenadelauncher"
+"origin" "480 -224 16"
+"count" "999"
+}
+// entity 57
+{
+"classname" "weapon_beamgun"
+"origin" "480 -352 16"
+"count" "999"
+}
+// entity 58
+{
+"classname" "weapon_plasmagun"
+"origin" "480 -160 16"
+"count" "999"
+}
+// entity 59
+{
+"classname" "weapon_rocketlauncher"
+"origin" "480 -288 16"
+"count" "999"
+}
+// entity 60
+{
+"classname" "weapon_railgun"
+"origin" "160 -480 16"
+"count" "999"
+}
+// entity 61
+{
+"classname" "weapon_shotgun"
+"origin" "224 -480 16"
+"count" "999"
+}
+// entity 62
+{
+"classname" "weapon_chaingun"
+"origin" "96 -480 16"
+"count" "999"
+}
+// entity 63
+{
+"classname" "weapon_proxylauncher"
+"origin" "352 -480 16"
+"count" "999"
+}
+// entity 64
+{
+"classname" "weapon_napalmlauncher"
+"origin" "408 -480 16"
+"count" "999"
+}
+// entity 65
+{
+"classname" "weapon_machinegun"
+"origin" "480 -480 16"
+"count" "999"
+}
+// entity 66
+{
+"classname" "weapon_gauntlet"
+"origin" "480 -88 16"
+"count" "999"
+}
+// entity 67
+{
+"classname" "weapon_phosphorgun"
+"origin" "288 -480 16"
+"count" "999"
+}
+// entity 68
+{
+"classname" "weapon_handgun"
+"origin" "480 -32 16"
+"count" "999"
+}
+// entity 69
+{
+"classname" "weapon_heavy_machinegun"
+"origin" "32 -480 16"
+"count" "999"
+}
+// entity 70
+{
+"count" "999"
+"origin" "-416 -480 16"
+"classname" "weapon_bfg"
+}
+// entity 71
+{
+"count" "999"
+"origin" "-224 -480 16"
+"classname" "weapon_grenadelauncher"
+}
+// entity 72
+{
+"count" "999"
+"origin" "-352 -480 16"
+"classname" "weapon_beamgun"
+}
+// entity 73
+{
+"count" "999"
+"origin" "-160 -480 16"
+"classname" "weapon_plasmagun"
+}
+// entity 74
+{
+"count" "999"
+"origin" "-288 -480 16"
+"classname" "weapon_rocketlauncher"
+}
+// entity 75
+{
+"count" "999"
+"origin" "-480 -160 16"
+"classname" "weapon_railgun"
+}
+// entity 76
+{
+"count" "999"
+"origin" "-480 -224 16"
+"classname" "weapon_shotgun"
+}
+// entity 77
+{
+"count" "999"
+"origin" "-480 -96 16"
+"classname" "weapon_chaingun"
+}
+// entity 78
+{
+"count" "999"
+"origin" "-480 -352 16"
+"classname" "weapon_proxylauncher"
+}
+// entity 79
+{
+"count" "999"
+"origin" "-480 -408 16"
+"classname" "weapon_napalmlauncher"
+}
+// entity 80
+{
+"count" "999"
+"origin" "-480 -480 16"
+"classname" "weapon_machinegun"
+}
+// entity 81
+{
+"count" "999"
+"origin" "-88 -480 16"
+"classname" "weapon_gauntlet"
+}
+// entity 82
+{
+"count" "999"
+"origin" "-480 -288 16"
+"classname" "weapon_phosphorgun"
+}
+// entity 83
+{
+"count" "999"
+"origin" "-32 -480 16"
+"classname" "weapon_handgun"
+}
+// entity 84
+{
+"count" "999"
+"origin" "-480 -32 16"
+"classname" "weapon_heavy_machinegun"
+}
+// entity 85
+{
+"origin" "0 0 128"
+"classname" "info_player_intermission"
+}
+// entity 86
+{
+"classname" "info_player_deathmatch"
+"origin" "-3840 4000 24"
+"target" "t2"
+"angle" "270"
+}
+// entity 87
+{
+"target" "t2"
+"origin" "-3328 4000 24"
+"classname" "info_player_deathmatch"
+"angle" "270"
+}
+// entity 88
+{
+"classname" "info_player_deathmatch"
+"origin" "-2816 4000 24"
+"target" "t2"
+"angle" "270"
+}
+// entity 89
+{
+"target" "t2"
+"origin" "-2304 4000 24"
+"classname" "info_player_deathmatch"
+"angle" "270"
+}
+// entity 90
+{
+"classname" "info_player_deathmatch"
+"origin" "-1792 4000 24"
+"target" "t2"
+"angle" "270"
+}
+// entity 91
+{
+"target" "t2"
+"origin" "-1280 4000 24"
+"classname" "info_player_deathmatch"
+"angle" "270"
+}
+// entity 92
+{
+"classname" "info_player_deathmatch"
+"origin" "-768 4000 24"
+"target" "t2"
+"angle" "270"
+}
+// entity 93
+{
+"target" "t2"
+"origin" "-256 4000 24"
+"classname" "info_player_deathmatch"
+"angle" "270"
+}
+// entity 94
+{
+"classname" "info_player_deathmatch"
+"origin" "256 -4000 24"
+"target" "t2"
+"angle" "90"
+}
+// entity 95
+{
+"target" "t2"
+"origin" "768 -4000 24"
+"classname" "info_player_deathmatch"
+"angle" "90"
+}
+// entity 96
+{
+"classname" "info_player_deathmatch"
+"origin" "1280 -4000 24"
+"target" "t2"
+"angle" "90"
+}
+// entity 97
+{
+"target" "t2"
+"origin" "1792 -4000 24"
+"classname" "info_player_deathmatch"
+"angle" "90"
+}
+// entity 98
+{
+"classname" "info_player_deathmatch"
+"origin" "2304 -4000 24"
+"target" "t2"
+"angle" "90"
+}
+// entity 99
+{
+"target" "t2"
+"origin" "2816 -4000 24"
+"classname" "info_player_deathmatch"
+"angle" "90"
+}
+// entity 100
+{
+"classname" "info_player_deathmatch"
+"origin" "3328 -4000 24"
+"target" "t2"
+"angle" "90"
+}
+// entity 101
+{
+"target" "t2"
+"origin" "3840 -4000 24"
+"classname" "info_player_deathmatch"
+"angle" "90"
+}
+// entity 102
+{
+"angle" "90"
+"target" "t2"
+"origin" "-3840 -4000 24"
+"classname" "info_player_deathmatch"
+}
+// entity 103
+{
+"angle" "90"
+"classname" "info_player_deathmatch"
+"origin" "-3328 -4000 24"
+"target" "t2"
+}
+// entity 104
+{
+"angle" "90"
+"target" "t2"
+"origin" "-2816 -4000 24"
+"classname" "info_player_deathmatch"
+}
+// entity 105
+{
+"angle" "90"
+"classname" "info_player_deathmatch"
+"origin" "-2304 -4000 24"
+"target" "t2"
+}
+// entity 106
+{
+"angle" "90"
+"target" "t2"
+"origin" "-1792 -4000 24"
+"classname" "info_player_deathmatch"
+}
+// entity 107
+{
+"angle" "90"
+"classname" "info_player_deathmatch"
+"origin" "-1280 -4000 24"
+"target" "t2"
+}
+// entity 108
+{
+"angle" "90"
+"target" "t2"
+"origin" "-768 -4000 24"
+"classname" "info_player_deathmatch"
+}
+// entity 109
+{
+"angle" "90"
+"classname" "info_player_deathmatch"
+"origin" "-256 -4000 24"
+"target" "t2"
+}
+// entity 110
+{
+"target" "t2"
+"origin" "-4000 -256 24"
+"classname" "info_player_deathmatch"
+}
+// entity 111
+{
+"classname" "info_player_deathmatch"
+"origin" "-4000 -768 24"
+"target" "t2"
+}
+// entity 112
+{
+"target" "t2"
+"origin" "-4000 -1280 24"
+"classname" "info_player_deathmatch"
+}
+// entity 113
+{
+"classname" "info_player_deathmatch"
+"origin" "-4000 -1792 24"
+"target" "t2"
+}
+// entity 114
+{
+"target" "t2"
+"origin" "-4000 -2304 24"
+"classname" "info_player_deathmatch"
+}
+// entity 115
+{
+"classname" "info_player_deathmatch"
+"origin" "-4000 -2816 24"
+"target" "t2"
+}
+// entity 116
+{
+"target" "t2"
+"origin" "-4000 -3328 24"
+"classname" "info_player_deathmatch"
+}
+// entity 117
+{
+"classname" "info_player_deathmatch"
+"origin" "-4000 -3840 24"
+"target" "t2"
+}
+// entity 118
+{
+"classname" "info_player_deathmatch"
+"origin" "-4000 3840 24"
+"target" "t2"
+}
+// entity 119
+{
+"target" "t2"
+"origin" "-4000 3328 24"
+"classname" "info_player_deathmatch"
+}
+// entity 120
+{
+"classname" "info_player_deathmatch"
+"origin" "-4000 2816 24"
+"target" "t2"
+}
+// entity 121
+{
+"target" "t2"
+"origin" "-4000 2304 24"
+"classname" "info_player_deathmatch"
+}
+// entity 122
+{
+"classname" "info_player_deathmatch"
+"origin" "-4000 1792 24"
+"target" "t2"
+}
+// entity 123
+{
+"target" "t2"
+"origin" "-4000 1280 24"
+"classname" "info_player_deathmatch"
+}
+// entity 124
+{
+"classname" "info_player_deathmatch"
+"origin" "-4000 768 24"
+"target" "t2"
+}
+// entity 125
+{
+"target" "t2"
+"origin" "-4000 256 24"
+"classname" "info_player_deathmatch"
+}
+// entity 126
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "4000 256 24"
+"target" "t2"
+}
+// entity 127
+{
+"angle" "180"
+"target" "t2"
+"origin" "4000 768 24"
+"classname" "info_player_deathmatch"
+}
+// entity 128
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "4000 1280 24"
+"target" "t2"
+}
+// entity 129
+{
+"angle" "180"
+"target" "t2"
+"origin" "4000 1792 24"
+"classname" "info_player_deathmatch"
+}
+// entity 130
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "4000 2304 24"
+"target" "t2"
+}
+// entity 131
+{
+"angle" "180"
+"target" "t2"
+"origin" "4000 2816 24"
+"classname" "info_player_deathmatch"
+}
+// entity 132
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "4000 3328 24"
+"target" "t2"
+}
+// entity 133
+{
+"angle" "180"
+"target" "t2"
+"origin" "4000 3840 24"
+"classname" "info_player_deathmatch"
+}
+// entity 134
+{
+"angle" "180"
+"target" "t2"
+"origin" "3999 -3840 24"
+"classname" "info_player_deathmatch"
+}
+// entity 135
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "3999 -3328 24"
+"target" "t2"
+}
+// entity 136
+{
+"angle" "180"
+"target" "t2"
+"origin" "3999 -2816 24"
+"classname" "info_player_deathmatch"
+}
+// entity 137
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "3999 -2304 24"
+"target" "t2"
+}
+// entity 138
+{
+"angle" "180"
+"target" "t2"
+"origin" "3999 -1792 24"
+"classname" "info_player_deathmatch"
+}
+// entity 139
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "4000 -1280 24"
+"target" "t2"
+}
+// entity 140
+{
+"angle" "180"
+"target" "t2"
+"origin" "4000 -768 24"
+"classname" "info_player_deathmatch"
+}
+// entity 141
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "4000 -256 24"
+"target" "t2"
+}
