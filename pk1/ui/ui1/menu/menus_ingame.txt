@@ -1,5 +1,5 @@
 {
- 	loadMenu {"ui/ui1/ingame.menu"}
+	loadMenu {"ui/ui1/ingame.menu"}
 	loadMenu {"ui/ui1/ingame_vote.menu"}
 	loadMenu {"ui/ui1/ingame_about.menu"}
 	loadMenu {"ui/ui1/ingame_controls.menu"}
