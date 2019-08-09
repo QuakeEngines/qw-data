@@ -4,7 +4,7 @@
 		name "credit"
 		visible 0
 		fullscreen 1
-		rect 0 0 640 480
+		rect 0 0 640 476
 		background "menuback_a"
 		focusColor 1 .67 0 1
 		style 1
@@ -41,7 +41,7 @@
 			name mappreview
 			style 5
 			cinematic "idlogo.roq"
-			rect 0 0 640 480
+			rect 0 0 640 476
 			backcolor 1 1 1 .25
 			border 1
 			bordersize 1
@@ -472,7 +472,7 @@
 			background "ui/assets/fadebox.tga"
 			forecolor 0 0 0 1
 			backcolor 0 0 0 1
-			rect 0 0 640 480
+			rect 0 0 640 476
 			visible 1
 			decoration
 		}
