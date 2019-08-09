@@ -385,9 +385,9 @@
 			textstyle 3
 			textscale .75
 			ownerdraw CG_PLAYER_ARMOR_VALUE 
-			addColorRange -999 25 .67 0 0 1
+			addColorRange -999 25 1 0 0 1
 			addColorRange 26 100  1 .75 0 1
-			addColorRange 101 999 .75 .75 .75 1
+			addColorRange 101 999 1 1 1 1
 		}
 
 		itemDef {
