@@ -392,7 +392,7 @@
 			cvar version 
 			maxPaintChars 32
 			textalign ITEM_ALIGN_LEFT
-			textalignx 128
+			textalignx 150
 			textaligny 12
 			textalign 1
 			textscale .25
