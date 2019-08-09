@@ -44,7 +44,7 @@
 
 		itemDef {
 			name window
-			rect 204 50 227 113
+			rect 204 50 227 98
 			style WINDOW_STYLE_FILLED
 			border 1
 			bordercolor 1 1 1 .25
@@ -56,7 +56,7 @@
 
 		itemDef {
 			name window
-			rect 204 165 227 270
+			rect 204 150 227 270
 			style WINDOW_STYLE_FILLED
 			border 1
 			bordercolor 1 1 1 .25
@@ -356,26 +356,6 @@
 			visible 1
 		}
 
-		itemDef {
-			name normal
-			group grpsettings
-			type ITEM_TYPE_MULTI
-			text "Punkbuster:"
-			cvar "sv_punkbuster"
-
-			cvarFloatList {
-				"No" 0 "Yes" 1
-			}
-
-			rect 260 145 128 12
-			textalign ITEM_ALIGN_RIGHT
-			textalignx 65
-			textaligny 12
-			textscale .25
-			forecolor 1 1 1 1
-			visible 1
-		}
-
 // EXPERT
 
 		itemDef {
@@ -386,7 +366,7 @@
 			cvar "sv_hostname"
 			maxChars 32
 			maxPaintChars 10
-			rect 260 175 128 12
+			rect 260 160 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
 			textaligny 12
@@ -401,7 +381,7 @@
 			type ITEM_TYPE_YESNO
 			text "Auto Download:"
 			cvar "sv_allowdownload"
-			rect 260 190 128 12
+			rect 260 175 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
 			textaligny 12
@@ -416,7 +396,7 @@
 			type ITEM_TYPE_YESNO
 			text "Enable Voting:"
 			cvar "g_allowvote"
-			rect 260 205 128 12
+			rect 260 190 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
 			textaligny 12
@@ -431,7 +411,7 @@
 			type ITEM_TYPE_NUMERICFIELD
 			text "Maximum Players:"
 			cvar "sv_maxclients"
-			rect 260 220 128 12
+			rect 260 205 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
 			maxchars 4
@@ -447,7 +427,7 @@
 			type ITEM_TYPE_NUMERICFIELD
 			text "Minimum Ping:"
 			cvar "sv_minping"
-			rect 260 235 128 12
+			rect 260 220 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
 			maxchars 4
@@ -463,11 +443,26 @@
 			type ITEM_TYPE_NUMERICFIELD
 			text "Maximum Ping:"
 			cvar "sv_maxping"
-			rect 260 250 128 12
+			rect 260 235 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
 			textaligny 12
 			maxchars 4
+			textscale .25
+			forecolor 1 1 1 1
+			visible 1
+		}
+
+		itemDef {
+			name expert
+			group grpsettings
+			type ITEM_TYPE_YESNO
+			text "Instagib:"
+			cvar "g_instagib"
+			rect 260 250 128 12
+			textalign ITEM_ALIGN_RIGHT
+			textalignx 65
+			textaligny 12
 			textscale .25
 			forecolor 1 1 1 1
 			visible 1
