@@ -324,6 +324,16 @@
 		}
 
 		itemDef {
+			name cinematicframe
+			rect 54 144 256 192
+			backcolor 1 1 1 .25
+			border 1
+			bordercolor .5 .5 .5 1
+			visible 1
+			decoration
+		}
+
+		itemDef {
 			name fadebox
 			style WINDOW_STYLE_FILLED
 			background "ui/assets/fadebox.tga"
