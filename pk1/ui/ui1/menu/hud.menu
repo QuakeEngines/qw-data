@@ -76,6 +76,7 @@
 			name "b"
 			rect 75 35 22 11
 			visible 1
+			textstyle 3
 			style 1
 			textscale .25
 			decoration
@@ -416,7 +417,7 @@
 
 		itemDef {
 			name "playerRect"
-			rect 0 13 63 48
+			rect 0 13 70 48
 			style 3
 			background hudalert_blue
 			visible 1
@@ -425,7 +426,7 @@
 
 		itemDef {
 			name "playerRect"
-			rect 63 13 63 48
+			rect 70 13 54 48
 			style 3
 			background hudalert_red
 			visible 1
@@ -472,7 +473,7 @@
 
 		itemDef {
 			name "r"
-			rect 35 21 30 15
+			rect 37 21 30 15
 			textstyle 3
 			visible 1
 			decoration
@@ -513,7 +514,7 @@
 
 		itemDef {
 			name "r"
-			rect 87 21 30 15
+			rect 84 21 30 15
 			textstyle 3
 			visible 1
 			decoration
@@ -581,7 +582,7 @@
 
 		itemDef {
 			name "playerScore"
-			rect 8 32 40 12
+			rect 10 32 40 12
 			visible 1
 			textstyle 3
 			decoration
@@ -699,7 +700,7 @@
 		name "voiceMenu"
 		fullScreen MENU_FALSE
 		visible MENU_FALSE
-		rect 5 5 100 100
+		rect 2 2 100 100
 
 		itemDef {
 			name "voiceMenuRect"
