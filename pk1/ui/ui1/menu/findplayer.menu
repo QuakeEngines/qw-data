@@ -238,7 +238,7 @@
 			type ITEM_TYPE_EDITFIELD
 			style 0
 			text "Name:"
-			cvar "ui_findplayer"
+			cvar "ui_findPlayer"
 			maxChars 20
 			rect 20 48 215 32
 			textalign ITEM_ALIGN_LEFT

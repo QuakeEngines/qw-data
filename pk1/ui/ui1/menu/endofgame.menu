@@ -961,7 +961,7 @@
 			name mapname
 			type 4
 			text "Map:"
-			cvar "ui_scoremap"
+			cvar "ui_scoreMap"
 			rect 0 140 128 12
 			textstyle 3
 			textalign ITEM_ALIGN_RIGHT
@@ -978,7 +978,7 @@
 			group grpsettings
 			type ITEM_TYPE_NUMERICFIELD
 			text "Frag limit:"
-			cvar "ui_fraglimit"
+			cvar "ui_fragLimit"
 			textstyle 3
 			ownerdrawflag UI_SHOW_ANYNONTEAMGAME
 			rect 0 155 128 12
@@ -996,7 +996,7 @@
 			group grpsettings
 			type ITEM_TYPE_NUMERICFIELD
 			text "Capture limit:"
-			cvar "ui_capturelimit"
+			cvar "ui_captureLimit"
 			ownerdrawflag UI_SHOW_ANYTEAMGAME
 			rect 0 155 128 12
 			textstyle 3
