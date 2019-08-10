@@ -267,7 +267,7 @@
 					150	100	40
 					365	20	20
 					463	20	20
-					532	20	20
+					533	20	20
 		}
 
 // PLAYER INFO
@@ -312,7 +312,7 @@
 			type 4
 			text "Fraglimit:"
 			rect 30 405 40 10
-			textalignx 0
+			textalignx 1
 			textaligny 10
 			visible 1
 			textalign 0
