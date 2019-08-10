@@ -441,7 +441,7 @@
 			group grpSystem
 			type ITEM_TYPE_MULTI
 			text "Texture Filter:"
-			cvar "r_texturemode"
+			cvar "r_textureMode"
 
 			cvarStrList {
 				"Bilinear", "GL_LINEAR_MIPMAP_NEAREST", "Trilinear", "GL_LINEAR_MIPMAP_LINEAR"
@@ -465,7 +465,7 @@
 			group grpSystem
 			type ITEM_TYPE_YESNO
 			text "Compress Textures:"
-			cvar "r_ext_compressed_textures "
+			cvar "r_ext_compressed_textures"
 			rect 0 270 256 20
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 133
@@ -636,7 +636,7 @@
 			group grpSystem
 			type ITEM_TYPE_SLIDER
 			text "Music Volume:"
-			cvarfloat "s_musicvolume" 0.25 0 1
+			cvarfloat "s_musicVolume" 0.25 0 1
 			rect 0 165 256 20
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 128
