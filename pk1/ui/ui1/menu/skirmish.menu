@@ -1558,7 +1558,7 @@
 			}
 
 			action {
-				uiScript skirmishStart
+				uiScript SkirmishStart
 			}
 /*			
 			// demo_only
@@ -1578,7 +1578,7 @@
 			type ITEM_TYPE_BUTTON
 
 			action {
-				uiScript skirmishStart
+				uiScript SkirmishStart
 			}
 
 			mouseExit {

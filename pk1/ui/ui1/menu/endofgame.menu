@@ -1230,7 +1230,7 @@
 				play "sound/misc/nomenu.wav";
 				close endofgame;
 				close skirmish;
-				uiScript skirmishStart
+				uiScript SkirmishStart
 			}
 
 			mouseEnter {
