@@ -119,7 +119,7 @@
 
 		itemDef {
 			name leftteamheadings
-			text "Status				 Name					Score	Time   Ping"
+			text "Status                 Name                                  Score       Time   Ping"
 			textscale .25
 			style 0
 			rect 25 112 128 30
@@ -135,7 +135,7 @@
 
 		itemDef {
 			name rightteamheadings
-			text "Status				 Name					Score	Time   Ping"
+			text "Status                 Name                                  Score       Time   Ping"
 			textscale .25
 			style 0
 			rect 331 112 128 30

@@ -339,7 +339,7 @@
 			decoration
 		}
 
- 		itemDef {
+		itemDef {
 			name serverlist
 			rect 10 128 620 235
 			type ITEM_TYPE_LISTBOX
@@ -744,7 +744,7 @@
 			}
 			
 			action {
-				play "sound/misc/nomenu.wav"; 
+				play "sound/misc/nomenu.wav";
 				open filter_popmenu
 			}
 		}
