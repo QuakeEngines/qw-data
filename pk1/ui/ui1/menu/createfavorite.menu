@@ -162,7 +162,7 @@
 
 			action {
 				play "sound/misc/nomenu.wav";
-				uiScript CreateFavorite;
+				uiScript createFavorite;
 				close createfavorite_popmenu;
 				open joinserver
 			}

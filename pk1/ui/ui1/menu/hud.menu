@@ -254,40 +254,41 @@
 		}
 	}
 
-// AMMO
+// ARMOR
 
 	menuDef {
-		name "Ammo"
+		name "Armor"
 		fullScreen MENU_FALSE
 		visible MENU_TRUE
 		rect 128 416 128 64
 
 		itemDef {
-			name "ammoRect"
+			name "armorRect"
+			rect 3 13 122 48
 			visible 1
 			style 4
-			rect 3 13 122 48
 		}
 
 		itemDef {
-			name "a"
-			rect 85 25 30 30 
+			name "armor"
+			rect 85 7 30 30
 			visible 1
 			decoration
-			ownerdraw CG_PLAYER_AMMO_ICON2D
+			ownerdraw CG_PLAYER_ARMOR_ICON2D
 		}
 
 		itemDef {
-			name "a"
+			name "armor2"
 			rect 10 43 63 12
 			visible 1
-			textstyle 3
 			decoration
+			textstyle 3
 			textscale .75
 			forecolor 1 1 1 1
-			ownerdraw CG_PLAYER_AMMO_VALUE
-			addColorRange -999 5 1 0 0 1
-			addColorRange 6 999 1 .75 0 1
+			ownerdraw CG_PLAYER_ARMOR_VALUE
+			addColorRange -999 25 1 0 0 1
+			addColorRange 26 100 1 .75 0 1
+			addColorRange 101 999 1 1 1 1
 		}
 
 		itemDef {
@@ -354,40 +355,39 @@
 		}
 	}
 
-// ARMOR
+// AMMO
 
 	menuDef {
-		name "Armor"
+		name "Ammo"
 		fullScreen MENU_FALSE
 		visible MENU_TRUE
 		rect 384 416 128 64
 
 		itemDef {
-			name "armorRect"
+			name "ammoRect"
 			rect 0 13 125 48
 			visible 1
 			style 4
 		}
 
 		itemDef {
-			name "armor"
-			rect 10 7 30 30 
+			name "a"
+			rect 10 25 30 30
 			visible 1
 			decoration
-			ownerdraw CG_PLAYER_ARMOR_ICON2D
+			ownerdraw CG_PLAYER_AMMO_ICON2D
 		}
 
 		itemDef {
-			name "armor2"
+			name "a"
 			rect 55 43 63 12
 			visible 1
 			decoration
 			textstyle 3
 			textscale .75
-			ownerdraw CG_PLAYER_ARMOR_VALUE 
-			addColorRange -999 25 1 0 0 1
-			addColorRange 26 100  1 .75 0 1
-			addColorRange 101 999 1 1 1 1
+			ownerdraw CG_PLAYER_AMMO_VALUE
+			addColorRange -999 5 1 0 0 1
+			addColorRange 6 999 1 .75 0 1
 		}
 
 		itemDef {

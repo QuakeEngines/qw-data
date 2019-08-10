@@ -21,7 +21,7 @@
 			playlooped "music/fla_mp03.wav";
 			fadeout fadebox;
 			transition mappreview 0 0 640 480 54 144 256 192 20 10;
-			uiScript loadMovies;
+			uiScript LoadMovies;
 			hide lightning;
 			hide accept_alt;
 			show accept;

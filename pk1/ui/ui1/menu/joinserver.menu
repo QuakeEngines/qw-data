@@ -542,7 +542,7 @@
 			mouseExit {
 				hide message_sort;
 				setitemcolor pingColumn bordercolor .5 .5 .5 1
-			}  
+			}
 		}
 
 // BUTTONS
