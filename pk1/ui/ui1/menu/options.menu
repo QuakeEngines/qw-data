@@ -240,7 +240,7 @@
 			group grpOptions
 			type ITEM_TYPE_YESNO
 			text "Voices Off:"
-			cvar "cg_NoVoiceChats"
+			cvar "cg_noVoiceChats"
 			rect 99 275 256 20
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 128
@@ -315,7 +315,7 @@
 			group grpOptions
 			type ITEM_TYPE_MULTI
 			text "Statusbar:"
-			cvar "cg_hudfiles"
+			cvar "cg_hudFiles"
 
 			cvarStrList {
 				Normal "ui/hud.txt"

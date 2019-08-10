@@ -309,7 +309,7 @@
 			group grpsettings
 			type ITEM_TYPE_YESNO
 			text "Friendly Fire:"
-			cvar "g_friendlyfire"
+			cvar "g_friendlyFire"
 			rect 260 94 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
@@ -400,7 +400,7 @@
 			group grpsettings
 			type ITEM_TYPE_YESNO
 			text "Auto Download:"
-			cvar "sv_allowdownload"
+			cvar "sv_allowDownload"
 			rect 260 190 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
@@ -415,7 +415,7 @@
 			group grpsettings
 			type ITEM_TYPE_YESNO
 			text "Enable Voting:"
-			cvar "g_allowvote"
+			cvar "g_allowVote"
 			rect 260 205 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
@@ -446,7 +446,7 @@
 			group grpsettings
 			type ITEM_TYPE_NUMERICFIELD
 			text "Minimum Ping:"
-			cvar "sv_minping"
+			cvar "sv_minPing"
 			rect 260 235 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
@@ -462,7 +462,7 @@
 			group grpsettings
 			type ITEM_TYPE_NUMERICFIELD
 			text "Maximum Ping:"
-			cvar "sv_maxping"
+			cvar "sv_maxPing"
 			rect 260 250 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
@@ -478,7 +478,7 @@
 			group grpsettings
 			type ITEM_TYPE_YESNO
 			text "Force Join:"
-			cvar "g_teamautojoin"
+			cvar "g_teamAutoJoin"
 			rect 260 265 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
@@ -493,7 +493,7 @@
 			group grpsettings
 			type ITEM_TYPE_YESNO
 			text "Even Teams:"
-			cvar "g_teamforcebalance"
+			cvar "g_teamForceBalance"
 			rect 260 280 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
@@ -508,7 +508,7 @@
 			group grpsettings
 			type ITEM_TYPE_YESNO
 			text "Do Warmup:"
-			cvar "g_dowarmup"
+			cvar "g_doWarmup"
 			rect 260 295 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
@@ -539,7 +539,7 @@
 			group grpsettings
 			type ITEM_TYPE_YESNO
 			text "Synchronous Client:"
-			cvar "g_synchronousclients"
+			cvar "g_synchronousClients"
 			rect 260 325 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
@@ -554,7 +554,7 @@
 			group grpsettings
 			type ITEM_TYPE_NUMERICFIELD
 			text "Max Rate:"
-			cvar "sv_maxrate"
+			cvar "sv_maxRate"
 			rect 260 340 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
@@ -602,7 +602,7 @@
 			group grpsettings
 			type ITEM_TYPE_YESNO
 			text "Require Password:"
-			cvar "g_needpassword"
+			cvar "g_needpass"
 			rect 260 385 128 12
 			textalign ITEM_ALIGN_RIGHT
 			textalignx 65
