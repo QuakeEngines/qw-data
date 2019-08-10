@@ -207,7 +207,7 @@
 			name leftgrad
 			style WINDOW_STYLE_SHADER
 			background "ui/assets/halfgradleft.tga"
-			rect 14 142 306 222
+			rect 14 142 306 220
 			forecolor .75 0 0 0.5
 			visible 1
 			decoration
@@ -217,7 +217,7 @@
 			name rightgrad
 			style WINDOW_STYLE_SHADER
 			background "ui/assets/halfgradright.tga"
-			rect 320 142 306 222
+			rect 320 142 306 220
 			forecolor 0 0 .75 0.5
 			visible 1
 			decoration
